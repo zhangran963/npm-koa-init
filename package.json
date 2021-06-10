@@ -1,0 +1,21 @@
+{
+	"name": "@clayder-ran/koa-init",
+	"version": "0.0.1",
+	"type": "commonjs",
+	"main": "./bin/index.js",
+  "files": [
+    "bin",
+    "package.json"
+  ],
+	"license": "MIT",
+	"bin": {
+		"my-koa-init": "./bin/index.js"
+	},
+	"scripts": {},
+	"dependencies": {
+		"ejs": "^3.1.6",
+		"execa": "^5.1.1",
+		"inquirer": "^8.1.0",
+		"prettier": "^2.3.1"
+	}
+}
